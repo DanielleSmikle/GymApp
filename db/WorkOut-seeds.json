@@ -1,20 +1,75 @@
+[
+    {
+    "label": "Leg Day",
+    "excercise": {
+      "name": ["Back Squat- 12 reps", "Front Squat- 12 reps", "Romanian Deadlift -15 reps", "Reverse Lunge- 12 reps"],
+      "sets": 3,
+      "description": "Start off with your 10 min body stretch and warm up! Have a great Leg Day!"
+    },
+    "date": "Sunday"
+    
+  },
+    {
+    "label": "Upper Body",
+    "excercise": {
+      "name": ["Incline push-ups-12 reps", "Floor Dumbbell Chest Press-8 reps", "Bent Over Row-12 reps", "Overhead Shoulder Press-8 reps"],
+      "sets": 3,
+      "description": "Start off with your 10 min body stretch with 2 sets of 25 jumping jacks! Have a great Upper Body Work Out!"
+    },
+    "date": "Monday"
+    
+  },
+    {
+    "label": "Cardio",
+    "excercise": {
+      "name": ["Treadmill Jog-15 min", "Mountain Climbers-20 reps", "Jump Squats- 10 reps ", "Jumpe Rope- 15 min"],
+      "sets": 3,
+      "description": "Do not rush your stretches! Be sure to stay hydrated! Let's get to it!"
+    },
+    "date": "Tuesday"
+    
+  },
+    {
+    "label": "Core",
+    "excercise": {
+      "name": ["Hip Lifts- 20 reps", " FLutter Kicks- 30 seconds", "Hip Dips- 20 reps", "V-Sits- 15 reps"],
+      "sets": 3,
+      "description": "Stretch your body! Work on your breathing and stay hydrated, this one is gonna BURN!"
+    },
+    "date": "Wednesday"
+    
+  },
+    {
+    "label": "Full Body",
+    "excercise": {
+      "name": ["Squat to Shoulder Press- 12 reps", "Deadlift to Bicep Curl- 12 reps", "Russian Twist into a Pike- 10 reps", "Cursty to Upright Row- 12 reps" ],
+      "sets": 3,
+      "description": "Beach Body Loading! Be sure to drink water. Strech your body slowly for 10 min."
+    },
+    "date": "Thursday"
+    
+  },
+    {
+    "label": "Rest",
+    "excercise": {
+      "name": ["Neighborhood Walk- at least 30 minutes"],
+      "sets": 1,
+      "description":"Do not forget to stretch and Take it easy, TGIF!"
+    },
+    "date": "Friday"
+    
+  },
+    {
+    "label": "Full Body",
+    "excercise": {
+      "name": ["Burpee's- 15 reps", "Elevated Pushups- 12 reps", "Clapping Jumping Jacks- 90 Seconds", " Jump Rope- 15 minutes"],
+      "sets": 4,
+      "description": "Slow Body Strech for 10 min, Stay Hydrated! Enjoy your Weekend!"
+    },
+    "date": "Saturday"
+    
+  }
+]
 
 
-
-
-
-
-// [
-//     {
-//         "label" : "Leg Day",
-//         "excercises": "Walking Lunges", "Bulgarian Split", "Squat", "Romanian Deadlift", "Hip Thrusts”,
-        
-        
-//         Reps: 3}],
-//         "Description": “The reason why Monday is leg day is simple. It's your biggest muscle group and provides the
-//          foundation for all your other muscle groups. If you train the smaller muscles first you'll make them weaker, 
-//          taking away from the larger muscle groups, which require more strength.”
-
-//     },
-
-//  ]
+  
