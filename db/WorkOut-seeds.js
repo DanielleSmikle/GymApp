@@ -1,4 +1,4 @@
-const WorkOut = require('../models/WorkOut-model')
+const WorkOut = require('../models/WorkOut-model');
 const seedData = require('./WorkOut-seeds.json')
 
 
@@ -7,12 +7,8 @@ console.log(seedData)
 
 
 WorkOut.deleteMany({})
-    .then(()=> {
-        return WorkOut.insertMany(seedData)
+.then(()=> {
+        return WorkOut.insertMany(seedData);
     })
-    .then(console.log)
-    .catch(console.error)
-    .finally( () => {
-
-        process.exit()
-    })
+    .then((res) => console.log(res))
+    .finally(() => process.exit());

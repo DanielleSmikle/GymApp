@@ -1,5 +1,5 @@
 const { type } = require('express/lib/response');
-const mongoose = require('../db/connection')
+const mongoose = require('../db/connection');
 // const ExcerciseNameSchema = new mongoose.Schema({ name: String });
 const WorkOutSchema = new mongoose.Schema(
     {
@@ -12,11 +12,9 @@ const WorkOutSchema = new mongoose.Schema(
         },
         date: String
          
-    }
-      
-    );
+    });
     
 
-const WorkOut = mongoose.model('WorkOut', WorkOutSchema)
+const WorkOut = mongoose.model("WorkOut", WorkOutSchema)
 
 module.exports = WorkOut;
