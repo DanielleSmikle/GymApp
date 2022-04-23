@@ -23,6 +23,10 @@ router.delete('/:id', (req, res) => {
     );
 
 });
-
+router.put('/:id', (req, res) => {
+    WorkOut.findByIdAndUpdate(req.params.id,(req.body)).then(item =>
+        res.send(item)
+        );
+});
 
 module.exports = router;
