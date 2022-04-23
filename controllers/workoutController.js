@@ -15,18 +15,14 @@ router.post('/add', (req, res) =>{
     WorkOut.create(req.body).then(items => res.send(items));
 
 });
-//     .then((WorkOut) => {
-//         res.render('workouts/index',{ workout });
-//     })
-//     .catch(console.error);
-// });
 
-// router.get('/:id', (req, res) => {
-//     WorkOut.findById(req.params.id)
-//     .then((todo) => {
-//         res.render('workout/show', workout);
-//     })
-//     .catch(console.error);
-// });
+
+router.delete('/:id', (req, res) => {
+    WorkOut.findByIdAndDelete(req.params.id).then(item => 
+        res.send(item)
+    );
+
+});
+
 
 module.exports = router;
