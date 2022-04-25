@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(173, 220, 161);
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, max-content));
+    grid-gap: 16px;
+}
+
+.cards{
+    border: 1px black solid;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

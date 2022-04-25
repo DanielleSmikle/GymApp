@@ -4,6 +4,8 @@ const mongoose = require('../db/connection');
 const WorkOutSchema = new mongoose.Schema(
     {
         label: {type: String, required: true},
+
+        img: String,
           
         excercise: {          
           name: [String],

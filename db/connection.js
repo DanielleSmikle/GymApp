@@ -2,7 +2,9 @@ const mongoose = require('mongoose')
 
 const connectionString = "mongodb+srv://test:test@cluster0.qctpu.mongodb.net/GymApp?retryWrites=true&w=majority"
 
-mongoose.connect(connectionString);
+mongoose.connect(connectionString).then(instance => console.log(`Connected to: ${instance.connections[0].name}`)
+).catch(error => console.log(`failed conn:`, error))
+
 
 
 
@@ -16,8 +18,8 @@ mongoose.connect(connectionString);
 //     : "mongodb+srv://test:test@cluster0.qctpu.mongodb.net/GymApp?retryWrites=true&w=majority"
 
 //     mongoose.connect(mongoURI)
-//         .then(instance => console.log(`Connected to: ${instance.connections[0].name}`)
-//         )
-//         .catch(error => console.log(`failed conn:`, error))
+        // .then(instance => console.log(`Connected to: ${instance.connections[0].name}`)
+        // )
+        // .catch(error => console.log(`failed conn:`, error))
 
     module.exports = mongoose;

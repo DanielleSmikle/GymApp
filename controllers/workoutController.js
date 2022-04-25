@@ -1,4 +1,5 @@
 const express = require('express');
+const res = require('express/lib/response');
 const WorkOut = require('../models/WorkOut-model');
 
 const router = express.Router();
@@ -6,7 +7,12 @@ const router = express.Router();
 
 
 router.get('/', (req, res) => {
-    WorkOut.find({}).then((items) => res.send(items));
+    WorkOut
+    .find({})
+    .then((items) => {
+        console.log(items)
+        res.render('index', {stuff: items})
+    });
 
 });
 
@@ -29,4 +35,9 @@ router.put('/:id', (req, res) => {
         );
 });
 
+
+//test 
+
+
+    
 module.exports = router;

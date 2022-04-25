@@ -1,0 +1,27 @@
+<link rel="stylesheet" type= "text/css" href="styles.css"/>
+<h1>My Weekly Gym Journal</h1>
+
+<div> 
+    <a href="/new">test</a>
+</div>
+
+
+<div class="container">
+
+ <%stuff.forEach(v => { %>
+    <div class="'cards">
+        <div><%=v.label %> </div>
+        <div><%=v.Date %> </div>
+
+        <div>
+            <a href="/">edit</a>
+            <a href="/">delete</a>
+            
+    
+        </div>      
+
+    </div>
+    
+<% }) %>
+
+</div>

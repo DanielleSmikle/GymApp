@@ -11,6 +11,7 @@
   },
     {
     "label": "Upper Body",
+
     "excercise": {
       "name": ["Incline push-ups-12 reps", "Floor Dumbbell Chest Press-8 reps", "Bent Over Row-12 reps", "Overhead Shoulder Press-8 reps"],
       "sets": 3,
