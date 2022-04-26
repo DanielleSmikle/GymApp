@@ -10,10 +10,37 @@ body{
 }
 
 .cards{
-    border: 1px black solid;
+    border: 4px black solid;
     padding: 20px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.font{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.buttonContainer{
+    padding: 20px 0px;
+}
+
+.button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.label{
+    background-color: rgb(225, 196, 26);
+    color: blueviolet;
+}
+
+.date{
+    background-color: rgb(225, 196, 26);
+    color: blueviolet
 }
