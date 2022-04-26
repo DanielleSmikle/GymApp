@@ -1,6 +1,7 @@
 [
     {
     "label": "Leg Day",
+    "img": "https://i.imgur.com/dKMKVB0.png" ,
     "excercise": {
       "name": ["Back Squat- 12 reps", "Front Squat- 12 reps", "Romanian Deadlift -15 reps", "Reverse Lunge- 12 reps"],
       "sets": 3,
@@ -11,6 +12,7 @@
   },
     {
     "label": "Upper Body",
+    "img": "https://i.imgur.com/Ue1xOhe.png",
 
     "excercise": {
       "name": ["Incline push-ups-12 reps", "Floor Dumbbell Chest Press-8 reps", "Bent Over Row-12 reps", "Overhead Shoulder Press-8 reps"],
@@ -22,6 +24,7 @@
   },
     {
     "label": "Cardio",
+    "img": "https://i.imgur.com/RzG9TCA.png",
     "excercise": {
       "name": ["Treadmill Jog-15 min", "Mountain Climbers-20 reps", "Jump Squats- 10 reps ", "Jumpe Rope- 15 min"],
       "sets": 3,
@@ -32,6 +35,7 @@
   },
     {
     "label": "Core",
+    "img": "https://i.imgur.com/Co5pgLD.png",
     "excercise": {
       "name": ["Hip Lifts- 20 reps", " FLutter Kicks- 30 seconds", "Hip Dips- 20 reps", "V-Sits- 15 reps"],
       "sets": 3,
@@ -42,6 +46,7 @@
   },
     {
     "label": "Full Body",
+    "img": "https://i.imgur.com/Co5pgLD.png",
     "excercise": {
       "name": ["Squat to Shoulder Press- 12 reps", "Deadlift to Bicep Curl- 12 reps", "Russian Twist into a Pike- 10 reps", "Cursty to Upright Row- 12 reps" ],
       "sets": 3,
@@ -62,6 +67,7 @@
   },
     {
     "label": "Full Body",
+    "img": "https://i.imgur.com/RzG9TCA.png",
     "excercise": {
       "name": ["Burpee's- 15 reps", "Elevated Pushups- 12 reps", "Clapping Jumping Jacks- 90 Seconds", " Jump Rope- 15 minutes"],
       "sets": 4,
