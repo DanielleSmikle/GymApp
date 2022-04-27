@@ -24,7 +24,7 @@
   },
     {
     "label": "Cardio",
-    "img": "https://i.imgur.com/RzG9TCA.png",
+    "img": "https://i.imgur.com/anfbr9L.png",
     "excercise": {
       "name": ["Treadmill Jog-15 min", "Mountain Climbers-20 reps", "Jump Squats- 10 reps ", "Jumpe Rope- 15 min"],
       "sets": 3,
@@ -46,7 +46,7 @@
   },
     {
     "label": "Full Body",
-    "img": "https://i.imgur.com/Co5pgLD.png",
+    "img": "https://i.imgur.com/anfbr9L.png",
     "excercise": {
       "name": ["Squat to Shoulder Press- 12 reps", "Deadlift to Bicep Curl- 12 reps", "Russian Twist into a Pike- 10 reps", "Cursty to Upright Row- 12 reps" ],
       "sets": 3,
@@ -56,7 +56,8 @@
     
   },
     {
-    "label": "Rest",
+    "label": "Rest Day",
+    "img": "https://i.imgur.com/wOiLjaO.png",
     "excercise": {
       "name": ["Neighborhood Walk- at least 30 minutes"],
       "sets": 1,
@@ -67,7 +68,7 @@
   },
     {
     "label": "Full Body",
-    "img": "https://i.imgur.com/RzG9TCA.png",
+    "img": "https://i.imgur.com/anfbr9L.png",
     "excercise": {
       "name": ["Burpee's- 15 reps", "Elevated Pushups- 12 reps", "Clapping Jumping Jacks- 90 Seconds", " Jump Rope- 15 minutes"],
       "sets": 4,

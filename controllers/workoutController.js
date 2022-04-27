@@ -17,9 +17,11 @@ router.get('/', (req, res) => {
 });
 
 
-router.post('/add', (req, res) =>{
-    WorkOut.create(req.body).then(items => res.send(items));
-
+router.post('/', (req, res) =>{
+    WorkOut.create(req.body)
+    .then(() => res.redirect('/'))
+    .catch(console.error);
+    //new data will not post
 });
 
 
@@ -39,6 +41,7 @@ router.put('/:id', (req, res) => {
 router.get('/new', (req, res) => {
     res.render('new');
 })
+
 
     
 module.exports = router;

@@ -1,14 +1,23 @@
+<link rel="stylesheet" type= "text/css" href="styles.css"/>
+ 
+ 
  <h1>Add New Excercise </h1>
 
- <form action= '/add' method= 'POST'>
+ <form class= 'form' action= '/' method= 'POST'>
 
-    <div>
-        <label for= 'label'>Excercise:</label>
-        <input type='text' Excercise='name/>
+    <div class="inputParent">
+        <label class= 'font' for='label'>Excercise:</label>
+        <input class= 'input font' type='text' name='label'/>
 
-        <label></label>
-        <input> />
+        <label class= 'font' for='Date'>Date:</label>
+        <input class= 'input font' type='text' name='date'/>
+
+        <label class= 'font' for='img'>Image:</label>
+        <input class= 'input font' type='text' name='img'/>
+
     </div>
 
+    <input class='button font submit'type='submit' />
+    <a class=' button font Cancel'href="/">Cancel</a>
 
 </form>

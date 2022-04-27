@@ -10,9 +10,9 @@ body{
 }
 
 .cards{
-    border: 4px black solid;
+    border: 1px black solid;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -43,4 +43,26 @@ body{
 .date{
     background-color: rgb(225, 196, 26);
     color: blueviolet
+}
+
+.inputParent{
+    padding: 10px 0px;
+}
+
+.form{
+    width: 50%
+}
+
+.input{
+    width: 100%
+}
+
+.cancel{
+    background-color: red;
+    color: pink;
+}
+
+.submit{
+    background-color: blue;
+    color: palevioletred;
 }
