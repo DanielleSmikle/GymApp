@@ -16,7 +16,16 @@
 
         <div>
             <a class="font" href="/">edit</a>
-            <a class="font" href="/">delete</a>
+            <!-- <a class="font" href="/">delete</a> -->
+
+            <form action="/<%=v.id%>?_method=DELETE" method='POST'>
+                <input
+                    type="submit"
+                    value="Delete"
+                />
+
+
+            </form>
             
     
         </div>      

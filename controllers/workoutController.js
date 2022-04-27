@@ -27,7 +27,7 @@ router.post('/', (req, res) =>{
 
 router.delete('/:id', (req, res) => {
     WorkOut.findByIdAndDelete(req.params.id).then(item => 
-        res.send(item)
+        res.redirect('/')
     );
 
 });
