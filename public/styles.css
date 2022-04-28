@@ -66,3 +66,14 @@ body{
     background-color: blue;
     color: palevioletred;
 }
+
+.cardButtonParent{
+    display: flex;
+    size: 50px;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.removeFormMargin{
+    margin: 0;
+}

@@ -12,22 +12,21 @@
     <div class="cards">
         <div class="font"><%=v.label %> </div>
         <div class="font"><%=v.Date %> </div>
-        <div> <img src='<%=v.img %>' height="200"></div>
+        <div> <img src='<%=v.img %>' height="150"></div>
 
-        <div>
-            <a class="font" href="/">edit</a>
+        <div class='cardButtonsParent'>
+            <a class="button submit font" href="/<%=v.id%>">Edit</a>
             <!-- <a class="font" href="/">delete</a> -->
 
-            <form action="/<%=v.id%>?_method=DELETE" method='POST'>
+            <form class= 'removeFormMargin' action="/<%=v.id%>?_method=DELETE" method='POST'>
                 <input
+                class='button cancel font' 
                     type="submit"
                     value="Delete"
                 />
-
-
             </form>
-            
-    
+
+           
         </div>      
 
     </div>

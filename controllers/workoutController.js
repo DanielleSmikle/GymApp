@@ -1,4 +1,5 @@
 const express = require('express');
+const { route } = require('express/lib/application');
 const res = require('express/lib/response');
 const WorkOut = require('../models/WorkOut-model');
 
@@ -33,7 +34,7 @@ router.delete('/:id', (req, res) => {
 });
 router.put('/:id', (req, res) => {
     WorkOut.findByIdAndUpdate(req.params.id,(req.body)).then(item =>
-        res.send(item)
+        res.redirect('/')
         );
 });
 
@@ -42,6 +43,11 @@ router.get('/new', (req, res) => {
     res.render('new');
 })
 
+router.get('/:id', (req, res) => {
+    WorkOut.findById(req.params.id).then(items =>{
+        res.render('edit', items)
+    })
+})
 
-    
+ 
 module.exports = router;
