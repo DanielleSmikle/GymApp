@@ -43,11 +43,17 @@ router.get('/new', (req, res) => {
     res.render('new');
 })
 
-router.get('/:id', (req, res) => {
+router.get('/:id/edit', (req, res) => {
     WorkOut.findById(req.params.id).then(items =>{
         res.render('edit', items)
     })
 })
 
+router.get('/:id', (req, res) => {
+    WorkOut.findById(req.params.id).then(items =>{
+        console.log(items)  
+        res.render('show',{item: items})
+    })
+})
  
 module.exports = router;
