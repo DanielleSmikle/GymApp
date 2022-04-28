@@ -7,6 +7,7 @@ body{
     justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(250px, max-content));
     grid-gap: 16px;
+    
 }
 
 .cards{
@@ -16,7 +17,18 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+    
 }
+ a{
+    text-decoration: none;
+    border: 1px solid white;
+    color: yellow;
+    background-color: black;
+    border-radius: 15px;
+    padding: 5px;
+ }
 
 .font{
     text-decoration: none;
@@ -67,11 +79,13 @@ body{
     color: palevioletred;
 }
 
-.cardButtonParent{
-    display: flex;
-    size: 50px;
+.cardButtonsParent{
+    display: inline-flex;
     justify-content: space-around;
     align-items: flex-end;
+    justify-items: row;
+
+    
 }
 
 .removeFormMargin{

@@ -8,5 +8,11 @@
 </head>
 <body>
     <h1><%=item.label%></h1>
+
+    <% for (let i=0; i< item.excercise.name.length; i++){ %>
+        <h2><%=item.excercise.name[i]%></h2> 
+   <% } %>
+
+
 </body>
 </html>
