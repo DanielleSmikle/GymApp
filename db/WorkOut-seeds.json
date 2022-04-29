@@ -1,7 +1,7 @@
 [
     {
     "label": "Leg Day",
-    "img": "https://i.imgur.com/dKMKVB0.png" ,
+    "img": "https://i.imgur.com/bz9kj47.png",
     "excercise": {
       "name": ["Back Squat- 12 reps", "Front Squat- 12 reps", "Romanian Deadlift -15 reps", "Reverse Lunge- 12 reps"],
       "sets": 3,
@@ -24,7 +24,7 @@
   },
     {
     "label": "Cardio",
-    "img": "https://i.imgur.com/anfbr9L.png",
+    "img": "https://i.imgur.com/ZqOUbwi.png",
     "excercise": {
       "name": ["Treadmill Jog-15 min", "Mountain Climbers-20 reps", "Jump Squats- 10 reps ", "Jumpe Rope- 15 min"],
       "sets": 3,
@@ -68,7 +68,7 @@
   },
     {
     "label": "Full Body",
-    "img": "https://i.imgur.com/anfbr9L.png",
+    "img": "https://i.imgur.com/ktTkmfK.png",
     "excercise": {
       "name": ["Burpee's- 15 reps", "Elevated Pushups- 12 reps", "Clapping Jumping Jacks- 90 Seconds", " Jump Rope- 15 minutes"],
       "sets": 4,

@@ -1,38 +1,43 @@
 body{
-    background-color: rgb(173, 220, 161);
+    background-color: rgb(240, 243, 244);
+    background-image: url('https://i.imgur.com/AMdr6bC.png');
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(212, 19, 178);
+    
 }
 
 .container{
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(250px, max-content));
-    grid-gap: 16px;
+    grid-template-columns: repeat(auto-fit,minmax(270px, max-content));
+    grid-gap: 20px;
     
 }
 
 .cards{
-    border: 1px black solid;
-    padding: 20px;
+    border: 1px black;
+    padding: 15px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: bisque;
+    background-image: url('https://i.imgur.com/egbxwve.png');
+    /* background-color: rgb(255, 195, 0); */
     
 }
  a{
     text-decoration: none;
-    border: 1px solid white;
-    color: yellow;
-    background-color: black;
+    border: 1px rgb(212, 19, 178);
+    color: rgb(69, 19, 212);
+    background-color: rgb(168, 190, 244);
     border-radius: 15px;
     padding: 5px;
  }
 
 .font{
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 20px;
 }
 
@@ -53,8 +58,8 @@ body{
 }
 
 .date{
-    background-color: rgb(225, 196, 26);
-    color: blueviolet
+    background-color: rgb(226, 114, 2);
+    color: pink
 }
 
 .inputParent{
@@ -62,7 +67,20 @@ body{
 }
 
 .form{
-    width: 50%
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 10;
+    box-sizing: content-box;
+    border: 2px solid ;
+    border-radius: 4px;
+    /* background-color: #3CBC8D; */
+    color: black;
+    background-color: white;
+  background-image: url('https://i.imgur.com/2c7kzIl.png');
+  background-position: fill; 
+  background-repeat: repeat;
+  padding-left: 40px;
+
 }
 
 .input{
@@ -70,12 +88,12 @@ body{
 }
 
 .cancel{
-    background-color: red;
+    background-color: rgb(217, 255, 0);
     color: pink;
 }
 
 .submit{
-    background-color: blue;
+    background-color: whitesmoke;
     color: palevioletred;
 }
 
@@ -90,4 +108,17 @@ body{
 
 .removeFormMargin{
     margin: 0;
+}
+.showItems{
+ background-color: rgb(130, 224, 170);
+ padding-left: 50px;
+ font-style: oblique;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ background-image: url('https://i.imgur.com/egbxwve.png');
+
+}
+
+.itemImg{
+    
+
 }
