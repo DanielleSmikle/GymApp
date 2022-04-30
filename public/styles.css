@@ -1,7 +1,8 @@
 body{
-    background-color: rgb(240, 243, 244);
-    background-image: url('https://i.imgur.com/AMdr6bC.png');
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(130, 224, 170);
+   
+    background-image: fill;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(212, 19, 178);
     
 }
@@ -22,7 +23,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-image: url('https://i.imgur.com/egbxwve.png');
+    background-image: url('https://i.imgur.com/wz0OhHj.png') ;
     /* background-color: rgb(255, 195, 0); */
     
 }
@@ -67,7 +68,7 @@ body{
 }
 
 .form{
-    width: 40%;
+    width: 50%;
     padding: 12px 20px;
     margin: 8px 10;
     box-sizing: content-box;
@@ -76,10 +77,9 @@ body{
     /* background-color: #3CBC8D; */
     color: black;
     background-color: white;
-  background-image: url('https://i.imgur.com/2c7kzIl.png');
-  background-position: fill; 
-  background-repeat: repeat;
-  padding-left: 40px;
+    background-image: url('https://i.imgur.com/wz0OhHj.png');
+    background-position: fill; 
+    padding-left: 40px;
 
 }
 
@@ -88,13 +88,13 @@ body{
 }
 
 .cancel{
-    background-color: rgb(217, 255, 0);
+    background-color: rgb(226, 114, 2);
     color: pink;
 }
 
 .submit{
-    background-color: whitesmoke;
-    color: palevioletred;
+    background-color: violet
+    
 }
 
 .cardButtonsParent{
@@ -114,11 +114,13 @@ body{
  padding-left: 50px;
  font-style: oblique;
  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- background-image: url('https://i.imgur.com/egbxwve.png');
+ background-image: url('https://i.imgur.com/wz0OhHj.png');
 
 }
 
-.itemImg{
+
+
+
+
     
 
-}

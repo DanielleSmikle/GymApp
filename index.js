@@ -1,14 +1,14 @@
 const express = require('express')
+// require('ejs')
 const methodOverride= require('method-override');
 const workoutController = require('./controllers/workoutController');
-
 
 const app = express();
 
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 app.use(methodOverride('_method'))
-
+// app.use(ejsLayouts);
 
 
 app.use(express.json());

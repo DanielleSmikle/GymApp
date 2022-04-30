@@ -11,7 +11,7 @@ router.get('/', (req, res) => {
     WorkOut
     .find({})
     .then((items) => {
-        console.log(items)
+        // console.log(items)
         res.render('index', {stuff: items})
     });
 
@@ -19,6 +19,13 @@ router.get('/', (req, res) => {
 
 
 router.post('/', (req, res) =>{
+    console.log(req.body)
+req.body.excercise={
+    name:req.body.name, 
+    sets:req.body.sets,
+    description:req.body.description
+
+}
     WorkOut.create(req.body)
     .then(() => res.redirect('/'))
     .catch(console.error);
@@ -51,7 +58,7 @@ router.get('/:id/edit', (req, res) => {
 
 router.get('/:id', (req, res) => {
     WorkOut.findById(req.params.id).then(items =>{
-        console.log(items)  
+        // console.log(items)  
         res.render('show',{item: items})
     })
 })
