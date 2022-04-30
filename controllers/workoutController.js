@@ -8,12 +8,12 @@ const router = express.Router();
 
 
 router.get('/', (req, res) => {
-    return res.send('hello world')
+  
     WorkOut
     .find({})
     .then((items) => {
         // console.log(items)
-        res.render('index', {stuff: items})
+        return res.render('index', {stuff: items})
     });
 
 });
