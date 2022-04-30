@@ -4,7 +4,7 @@ This app is targeted for users who are gym lovers but their schedule does not al
 ## WIREFRAME
 ---
 When the game opens, you will see this homepage:
-![Homepage of Gym App]('https://i.imgur.com/GyckZqL.png)
+![Homepage of Gym App](https://i.imgur.com/GyckZqL.png)
 ![Workout Customizing Screen](https://i.imgur.com/k6w8IKN.png)
 
 ## TECHNOLOGIES USED
